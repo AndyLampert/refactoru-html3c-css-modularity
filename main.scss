@@ -7,13 +7,15 @@ html {
 }
 
 .input-container {
-	text-align: right;
-	width: 50%;
+	width: 80%;
 	margin: 0 auto;
+}
+.input-container label {
+	width: 100px;
 }
 
 .user-name {
-	text-align: right; 
+	text-align: right;
 }
 
 .input-field {
@@ -44,12 +46,22 @@ html {
 	width: 80px;
 }
 
-.submit-button:hover {
-	background-color: rgba(193, 193, 193, 0.7);
+.submit-button {
+	margin-left: 1em;
+	/* inline by default */
+	padding: .4em;
+	&:hover {
+		background-color: rgba(193, 193, 193, 0.7);
+	};
 }
 
-.news-checkbox {
+.input-container.footer:before {
+	content:' ';
+	display: inline-block;
+	width: 100px;
 }
+
+
 
 input[type="checkbox"] {
 	margin-right: 1em;
@@ -72,18 +84,20 @@ input[type="checkbox"] {
 	box-shadow: 0px 0px 5px 0px red;
 }
 
-span {
-	
-}
-
 label {
 	display: inline-block;
 }
 
 .checkbox-container {
-	width: 50%;
+	width: 100%;
 	margin-left: 18%;
+	width: 200px;
+	margin-left: 25%;
+	label {
+		width: 220px;
+	}
 }
 
-.news-checkbox {
+.short-field {
+	margin-left: -10%;
 }

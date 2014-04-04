@@ -7,9 +7,12 @@ html {
 }
 
 .input-container {
-  text-align: right;
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
+}
+
+.input-container label {
+  width: 100px;
 }
 
 .user-name {
@@ -44,8 +47,19 @@ html {
   width: 80px;
 }
 
+.submit-button {
+  margin-left: 1em;
+  /* inline by default */
+  padding: .4em;
+}
 .submit-button:hover {
   background-color: rgba(193, 193, 193, 0.7);
+}
+
+.input-container.footer:before {
+  content: ' ';
+  display: inline-block;
+  width: 100px;
 }
 
 input[type="checkbox"] {
@@ -74,6 +88,15 @@ label {
 }
 
 .checkbox-container {
-  width: 50%;
+  width: 100%;
   margin-left: 18%;
+  width: 200px;
+  margin-left: 25%;
+}
+.checkbox-container label {
+  width: 220px;
+}
+
+.short-field {
+  margin-left: -10%;
 }
