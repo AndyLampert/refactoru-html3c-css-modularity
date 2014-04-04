@@ -1,8 +1,6 @@
-$bordergrey: rgb(193,193,193);
-$bordergreyhover: rgba(193,193,193,.7);
-
 html {
 	background: url(cream_dust.png);
+	background-color: red;
 }
 
 .form-container {
@@ -11,44 +9,82 @@ html {
 
 .input-container {
 	text-align: right;
-	margin: 0 auto;
 	width: 50%;
+	margin: 0 auto;
+}
+
+.user-name {
+	text-align: right; 
 }
 
 .input-field {
 	margin: 1em;
 	border-radius: 4px;
 	border: 0;
-	border: 1px solid $bordergrey;
-	width: 250px;
-	padding-top: .4em;
+	border: 1px solid #c1c1c1;
+	width: 15em;
+	padding: .4em;
+	vertical-align: middle;
 }
 
 .multiple-input-container {
 	text-align: right;
-	margin: 0 auto;
 	width: 50%;
+	margin: 0 auto;
 }
 
 .med-input-field {
-	width: 120px;
+	width: 7em;
 }
 
 .sml-input-field {
-	width: 50px;
+	width: 2em;
 }
 
-.submit-button {
-	width: 250px;
-	&:hover {
-		background-color: $bordergreyhover;
-	}
+.sml-submit-button {
+	width: 80px;
+}
+
+.submit-button:hover {
+	background-color: rgba(193, 193, 193, 0.7);
 }
 
 .news-checkbox {
-	margin-right: 15%;
 }
 
 input[type="checkbox"] {
 	margin-right: 1em;
+}
+
+.is-valid {
+	color: green;
+}
+
+.is-valid-field {
+	box-shadow: 0px 0px 5px 0px green;
+}
+
+.is-invalid {
+	color: red;
+}
+
+.is-invalid-field {
+	outline-color: red;
+	box-shadow: 0px 0px 5px 0px red;
+}
+
+span {
+	
+}
+
+label {
+	display: inline-block;
+}
+
+.checkbox-container {
+	width: 50%;
+	margin-left: 18%;
+}
+
+.news-checkbox {
 }

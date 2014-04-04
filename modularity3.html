@@ -58,16 +58,16 @@
                 <label class="user-name">State</label>
                 <input class="input-field sml-input-field" type="text" name="state">
               </div>
-              <div>
-                <div class="input-container">
+              <div class="form-container">
+                <div class="input-container checkbox-container">
                   <label class="user-name news-checkbox">
-                    <input class="" type="checkbox">Sign up for the newsletter
+                    <input class="checkbox-class" type="checkbox">Sign up for the newsletter
                   </label>
                 </div>
               </div>
               <div>
                 <div class="input-container">
-                  <input class="input-field submit-button" type="submit">
+                  <input class="input-field" type="submit">
                 </div>
               </div>
             </form>
@@ -81,19 +81,19 @@
           <p class="instruction-text">Create styles for validated inputs and validation messages.</p>
           <div class="instruction-answer">
             <!-- Edit here -->
-            <form>
-              <div>
-                <label>First Name</label>
-                <input type="text" name="firstName" value="Pascal">
+            <form class="form-container">
+              <div class="input-container">
+                <label class="user-name">First Name</label>
+                <input class="is-valid-field input-field" type="text" name="firstName" value="Pascal">
                 <span class="is-valid">✓</span>
               </div>
-              <div>
-                <label>Last Name</label>
-                <input type="text" name="lastName">
+              <div class="input-container">
+                <label class="user-name">Last Name</label>
+                <input class="input-field" type="text" name="lastName">
               </div>
-              <div>
-                <label>Email</label>
-                <input type="email" name="email" value="myemail@something">
+              <div class="input-container">
+                <label class="user-name">Email</label>
+                <input class="input-field  is-invalid-field" type="email" name="email" value="myemail@something">
                 <span class="is-invalid">Please enter a valid value.</span>
               </div>
             </form>
@@ -112,7 +112,7 @@
               <div>
                 <input placeholder="Find Groups by Title or Description">
               </div>
-              <input type="submit">
+              <input class="input-field sml-submit-button" type="submit">
             </div>
             <!-- End editable area -->
           </div>
