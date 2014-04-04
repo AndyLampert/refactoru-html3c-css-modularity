@@ -1,0 +1,54 @@
+$bordergrey: rgb(193,193,193);
+$bordergreyhover: rgba(193,193,193,.7);
+
+html {
+	background: url(cream_dust.png);
+}
+
+.form-container {
+	width: 100%;
+}
+
+.input-container {
+	text-align: right;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.input-field {
+	margin: 1em;
+	border-radius: 4px;
+	border: 0;
+	border: 1px solid $bordergrey;
+	width: 250px;
+	padding-top: .4em;
+	&:hover {
+		background-color: $bordergreyhover;
+	}
+}
+
+.multiple-input-container {
+	text-align: right;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.med-input-field {
+	width: 120px;
+}
+
+.sml-input-field {
+	width: 50px;
+}
+
+.submit-button {
+	width: 250px;
+}
+
+.news-checkbox {
+	margin-right: 15%;
+}
+
+input[type="checkbox"] {
+	margin-right: 1em;
+}
