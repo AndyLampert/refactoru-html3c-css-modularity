@@ -20,9 +20,6 @@ html {
   width: 250px;
   padding-top: .4em;
 }
-.input-field:hover {
-  background-color: rgba(193, 193, 193, 0.7);
-}
 
 .multiple-input-container {
   text-align: right;
@@ -40,6 +37,9 @@ html {
 
 .submit-button {
   width: 250px;
+}
+.submit-button:hover {
+  background-color: rgba(193, 193, 193, 0.7);
 }
 
 .news-checkbox {

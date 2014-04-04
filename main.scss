@@ -22,9 +22,6 @@ html {
 	border: 1px solid $bordergrey;
 	width: 250px;
 	padding-top: .4em;
-	&:hover {
-		background-color: $bordergreyhover;
-	}
 }
 
 .multiple-input-container {
@@ -43,6 +40,9 @@ html {
 
 .submit-button {
 	width: 250px;
+	&:hover {
+		background-color: $bordergreyhover;
+	}
 }
 
 .news-checkbox {
